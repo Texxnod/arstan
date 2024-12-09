@@ -25,6 +25,11 @@ a:hover {
     color: #9F6;
 }
 
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
 h1,
 h2,
 p,
