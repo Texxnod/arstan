@@ -36,8 +36,8 @@ if (!error_get_last()) {
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
     $mail->Username   = 'trashte4ho@gmail.com'; // Логин на почте
     $mail->Password   = 'Aa25062506'; // Пароль на почте
-    $mail->SMTPSecure = 'tls';
-    $mail->Port       = 587;
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port       = 465;
     $mail->setFrom('trashte4ho@gmail.com', 'Albert Ryo'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
