@@ -31,8 +31,8 @@ a:hover {
 }
 
 .shake-tl {
-	-webkit-animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s infinite both;
-	        animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s infinite both;
+	-webkit-animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.8s infinite both;
+	        animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.8s infinite both;
 }
 
 h1,
