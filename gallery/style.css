@@ -121,6 +121,7 @@ hr {
 	padding: 5px 20px;
 }
 .wrap-infinite-link {
+	display: block !important;
 	padding: 10px;
 	text-align: center;
 }
